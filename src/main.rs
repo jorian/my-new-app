@@ -20,6 +20,7 @@ mod tests {
 
     #[tokio::test]
     async fn handler_handles() {
+        dbg!("test");
         let event = json!({
             "answer": 42
         });
